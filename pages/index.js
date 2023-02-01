@@ -2,7 +2,7 @@ function Home(){
   return(
     <div className="grid place-items-center">
       <p>Hey There!</p>
-      <div className="grid-cols-3 space-x-5">
+      <div className="grid-cols-1">
       <button type="button" onClick={
         (e) => {
           e.preventDefault()
