@@ -44,13 +44,22 @@ function Home(){
           window.location.href='/api/clinicdata'
         }} class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
         Get Clinic Data API
-      </button><button type="button" onClick={
+      </button>
+      <button type="button" onClick={
         (e) => {
           e.preventDefault()
           window.location.href='/api/labdata'
         }} class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
         Get Lab Data API
       </button>
+      <button type="button" onClick={
+        (e) => {
+          e.preventDefault()
+          window.location.href='/api/timeSlots'
+        }} class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        Get Time Slot Data API
+      </button>
+      
       </div>
     </div>
   )
