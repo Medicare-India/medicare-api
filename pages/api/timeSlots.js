@@ -7,12 +7,12 @@ export default async function HospData(req,res){
         optionsSuccessStatus: 200
     });
     res.json({
-        "time_slots":
+        "time":
         [
             {
                 "id": "4051fc81-b32e-4555-94d7-acaa4239e907",
                 "date_available": "2022-08-18",
-                "time_slots": [
+                "timeslots": [
                     {
                         "slot": "12:10 pm",
                         "available": true
