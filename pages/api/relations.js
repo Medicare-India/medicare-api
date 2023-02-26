@@ -26,11 +26,11 @@ export default async function Relations(req,res){
             },
             {
                 "id": "5",
-                "relation": "Grand Mother"
+                "relation": "Grandmother"
             },
             {
                 "id": "6",
-                "relation": "Grand Father"
+                "relation": "Grandfather"
             }
         ]
     })}
