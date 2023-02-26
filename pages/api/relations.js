@@ -1,6 +1,6 @@
 import NextCors from "nextjs-cors";
 
-export default async function HospData(req,res){
+export default async function Relations(req,res){
     await NextCors(req,res, {
         methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
         origin: '*',
