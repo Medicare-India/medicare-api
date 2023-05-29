@@ -25,11 +25,16 @@ async function CustomerMenu(req,res){
             },
             {
                 "id":"4",
+                "title":"Prescriptions",
+                "source":"/prescriptions"
+            },
+            {
+                "id":"5",
                 "title":"About Us",
                 "source":"/about-us"
             },
             {
-                "id":"5",
+                "id":"6",
                 "title":"Contact Us",
                 "source":"/contact-us"
             }
