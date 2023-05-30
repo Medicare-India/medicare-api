@@ -11,7 +11,7 @@ export default function GetAllDrugs() {
      };
 
      const sendName=() => {
-        fetch( `http://localhost:3000/api/get_drug_data?name=${dname}`)
+        fetch( `./api/get_drug_data?name=${dname}`)
         .then((response) => response.json())
         .then((data) => {
             setDrugData(data)
