@@ -11,7 +11,7 @@ export default function GetAllDrugs() {
      };
 
      const sendName=() => {
-        fetch( `./api/get_drug_data?name=${dname}`)
+        fetch( `https://medicare-india-api.vercel.app/api/get_drug_data?name=${dname}`)
         .then((response) => response.json())
         .then((data) => {
             setDrugData(data)
