@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import NextCors from "nextjs-cors";
-// import GetDrugData  from "../../prisma/All_Drugs.js";
+import GetDrugData  from "../../prisma/All_Drugs.js";
 
 export default async function handler(req, res) {
   await NextCors(req, res, {
@@ -11,8 +11,7 @@ export default async function handler(req, res) {
   })
   if (req.method === "GET") {
     const { name } = req.query;
-    // const result = await GetDrugData(name);
-    // res.send(result)
-    res.send("Hey!")
+    const result = await GetDrugData(name);
+    res.send(result)
   }
 }
