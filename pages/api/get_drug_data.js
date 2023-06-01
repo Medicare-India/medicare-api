@@ -11,7 +11,8 @@ export default async function handler(req, res) {
   })
   if (req.method === "GET") {
     const { name } = req.query;
-    const result = await GetDrugData(name);
-    res.send(result)
+    // const result = await GetDrugData(name);
+    // res.send(result)
+    res.send("Hey!")
   }
 }
